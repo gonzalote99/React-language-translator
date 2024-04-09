@@ -1,0 +1,63 @@
+.translator-container{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  width: 80%:
+  margin: auto;
+  padding: 15px;
+  background-color: rgb(202, 202, 90);
+  align-items: center;
+  gap: 15px;
+font-size: 21px;
+}
+
+.translator-heading {
+    color: rgb(24, 20, 240);
+    font-size: 2rem;
+    text-decoration: underline;
+    padding: 5px;
+    text-align: center;
+    font-family: Arial
+}
+
+.translator-input-container, .translator-box-container {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.translator-box-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.translator-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  width: auto;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 3px solid blue;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+}
+
+textarea {
+  background-color: white;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+}
